@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Hobbies</title>
+</head>
+<style>
+    .body{
+        font-size: 50px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 100px;
+        width: 100px;
+        outline: black;
+        background-color: rgb(255, 255, 255);
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        border: 1px solid black;
+        background-image: none;
+    }
+
+    .carousel-control-next-icon:after {
+        content: '>';
+        font-size: 55px;
+        color: rgb(0, 0, 0);
+    }
+
+    .carousel-control-prev-icon:after {
+        content: '<';
+        font-size: 55px;
+        color: rgb(0, 0, 0);
+    }
+    .carousel-item{
+        text-align: center;
+        vertical-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<body>
+    <br>
+    <a href="atividade1.html" class="btn btn-outline-dark" type="button">Voltar</a>
+<br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 m-auto">
+                <div id="carousel1" class="carousel slide mb-4" data-ride="carousel">
+
+
+                    <!--dentro de carousel, acima de carousel-inner-->
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carousel1" data-slide-to="0"></li>
+                        <li data-target="#carousel1" data-slide-to="1"></li>
+                        <li data-target="#carousel1" data-slide-to="2"></li>
+                    </ol>
+
+
+                    <div class="carousel-inner">
+
+                        <!--depois de carousel-inner, dentro de carousel-->
+                        <a href="#carousel1" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+
+                        <div class="carousel-item active">
+                            <img src="img/foto1.1.jpg" width="50%" alt="Slide 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>⚽Futebol + ❤ Namorada</h3>
+                                <p>Futebol + Namorada gata</p>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/foto2.jpg" width="50%" alt="Slide 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>💉Doe sangue🩸</h3>
+                                <p>Pró-Sangue</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/foto3.png" width="100%" alt="Slide 3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>🏎Kart🏁</h3>
+                                <p>Droga é o braia</p>
+                            </div>
+                        </div>
+
+                        <a href="#carousel1" class="carousel-control-next" data-slide="next"><span
+                                class="carousel-control-next-icon"></span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
